@@ -2,7 +2,7 @@
 const express = require('express');
 
 // Import the MongoDB database connection module. Adjust the path based on your file structure.
-const mongodb = require('../cse341_1/data/database');
+const mongodb = require('../cse341_1/data/database.js');
 
 // Create an instance of the Express application
 const app = express();
